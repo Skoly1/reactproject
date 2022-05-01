@@ -1,0 +1,39 @@
+.list {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.listcontainer {
+  margin-left: 50px;
+  display: flex;
+  margin-top: 10px;
+  width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease;
+}
+
+.wrapper .sliderArrow {
+  cursor: pointer;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(22, 22, 22, 0.5);
+  color: #fff;
+  position: absolute;
+  /* check pos with absolute */
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sliderArrow.left {
+  left: 0;
+}
+
+.sliderArrow.right {
+  right: 0;
+}

@@ -1,0 +1,9 @@
+.videocard {
+  width: 270px;
+  /* margin-bottom: 40px; */
+}
+
+.videocard_thumbnail {
+  height: 140px;
+  width: 250%;
+}

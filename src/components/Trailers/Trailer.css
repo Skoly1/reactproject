@@ -1,0 +1,17 @@
+.trailer {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* try background color */
+  flex: 0.8;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+
+.trailer > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.rec_videos {
+  display: flex;
+  flex-wrap: wrap;
+}
